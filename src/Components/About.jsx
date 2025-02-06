@@ -7,7 +7,7 @@ const About = () => {
           A B O U T <span className="ml-3">M E</span>
         </h3>
         <p className=" w-11/12 lg:w-3/5 mx-auto text-lg text-gray-50 mt-8">
-          I am <span className=' font-semibold'>Muhammad Aziz</span>, a dedicated Frontend Developer who
+          I am <em className=' font-semibold'>Muhammad Aziz</em>, a dedicated Frontend Developer who
           loves bringing ideas to life through clean code and elegant design.
           Whether it's building a sleek UI or optimizing performance, I strive
           to deliver the best web experiences. Always exploring new technologies
