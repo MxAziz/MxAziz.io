@@ -9,8 +9,8 @@ const Navbar = () => {
           to="hero"
           smooth={true}
           duration={500}
-            hashSpy={true}
-          className="cursor-pointer"
+          hashSpy={true}
+          className="cursor-pointer hover:underline"
         >
           Home
         </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content p-8 space-y-4 font-bold rounded-box z-[1] mt-3 w-52  shadow text-lg"
+              className="menu menu-sm bg-gray-900 dropdown-content p-8 space-y-4 font-bold rounded-box z-[1] mt-3 w-52  shadow text-lg"
             >
               {links}
             </ul>
