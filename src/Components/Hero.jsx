@@ -8,14 +8,14 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-      <div className=" mt-28 lg:flex justify-between w-4/5 mx-auto">
+      <div className=" mt-28 lg:flex justify-between w-11/12 md:w-4/5 mx-auto">
         {/* content */}
-        <div className="lg:w-2/3">
+        <div className="lg:w-2/3 mt-4">
           <p className=" text-base lg:text-2xl">Hi, I am</p>
           <h2 className=" text-3xl md:text-4xl lg:text-5xl text-gray-100 font-medium mb-2">
             Muhammad Aziz
           </h2>
-          <span className=" text-2xl md:text-4xl lg:text-5xl font-semibold text-[#7E8083]">
+          <span className=" text-3xl md:text-4xl lg:text-5xl font-semibold text-[#7E8083]">
             <Typewriter
               words={[
                 "Frontend Developer",
@@ -36,6 +36,11 @@ const Hero = () => {
           </p>
           {/* social links */}
           <div className="flex gap-2 mt-12">
+            <a  className='hidden lg:block' >
+              <div className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+                Resume
+              </div>
+            </a>
             <Link to="https://github.com/MxAziz" target="_blank">
               <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaGithub className="text-2xl" />
@@ -62,9 +67,9 @@ const Hero = () => {
         {/* image */}
         <div className="">
           <img
-            className=" md:h-[400px] rounded-lg mt-8 lg:mt-0"
+            className="h-[300px] md:h-[400px] rounded-lg mt-8 lg:mt-0"
             src={azizImg}
-            alt=""
+            alt="Aziz image"
           />
         </div>
       </div>

@@ -64,7 +64,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto fixed top-0 navbar px-12 bg-[#2E3440] text-white shadow-md  flex justify-center space-x-4">
+      <div className="max-w-screen-xl mx-auto fixed top-0 navbar md:px-12 bg-[#2E3440] text-white shadow-md  flex justify-center space-x-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -96,7 +96,10 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end lg:hidden">
-          <a className="btn btn-sm">Download CV</a>
+          <a className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>
