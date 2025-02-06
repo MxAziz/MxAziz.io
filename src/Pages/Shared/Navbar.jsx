@@ -1,30 +1,70 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+
 
 const Navbar = () => {
   const links = (
     <>
       <li>
-        <Link>Home</Link>
+        <Link
+          to="hero"
+          smooth={true}
+          duration={500}
+            hashSpy={true}
+          className="cursor-pointer"
+        >
+          Home
+        </Link>
       </li>
       <li>
-        <Link>About</Link>
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          hashSpy={true}
+          className="cursor-pointer"
+        >
+          About
+        </Link>
       </li>
       <li>
-        <Link>Skills</Link>
+        <Link
+          to="skills"
+          smooth={true}
+          duration={500}
+          hashSpy={true}
+          className="cursor-pointer"
+        >
+          Skills
+        </Link>
       </li>
       <li>
-        <Link>Projects</Link>
+        <Link
+          to="projects"
+          smooth={true}
+          duration={500}
+          hashSpy={true}
+          className="cursor-pointer"
+        >
+          Projects
+        </Link>
       </li>
       <li>
-        <Link>Contact</Link>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          hashSpy={true}
+          className="cursor-pointer"
+        >
+          Contact
+        </Link>
       </li>
     </>
   );
 
   return (
     <div>
-      <div className="navbar w-11/12 mx-auto bg-[#2E3440] text-white">
+      <div className=" fixed top-0 navbar px-12 mx-auto bg-[#2E3440] text-white shadow-md  flex justify-center space-x-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,7 +85,7 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg"
             >
               {links}
             </ul>

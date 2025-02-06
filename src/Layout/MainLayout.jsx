@@ -6,7 +6,7 @@ import "../App.css"
 
 const MainLayout = () => {
   return (
-    <div className=" min-h-screen flex flex-col bg-[#2E3440] ">
+    <div className=" min-h-screen flex flex-col bg-[#2E3440] text-white ">
       <Navbar></Navbar>
       <div className="flex-grow">
         <Outlet></Outlet>
