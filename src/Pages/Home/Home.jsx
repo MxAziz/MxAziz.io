@@ -3,6 +3,7 @@ import React from 'react';
 import { Element } from "react-scroll";
 import Hero from '../../Components/Hero';
 import About from '../../Components/About';
+import Skills from '../../Components/Skills';
 
 const Home = () => {
     return (
@@ -14,9 +15,7 @@ const Home = () => {
           <About></About>
         </Element>
         <Element name="skills">
-          <section className=" min-h-screen">
-
-          </section>
+          <Skills></Skills>
         </Element>
       </div>
     );
