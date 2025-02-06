@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
-      <div className=" mt-28 lg:flex justify-between w-11/12 md:w-4/5 mx-auto">
+      <div className=" pt-28 lg:flex justify-between w-11/12 md:w-4/5 mx-auto">
         {/* content */}
         <div className="lg:w-2/3 mt-4 flex flex-col justify-center">
           <p className=" text-base lg:text-2xl">Hi, I am</p>
