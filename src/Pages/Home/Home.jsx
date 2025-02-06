@@ -6,7 +6,7 @@ import Hero from '../../Components/Hero';
 const Home = () => {
     return (
       <div>
-        <Element name="hero" className=" min-h-screen">
+        <Element name="hero" >
           <Hero></Hero>
         </Element>
         <Element name="about">

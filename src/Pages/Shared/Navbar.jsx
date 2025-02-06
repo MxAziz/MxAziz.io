@@ -85,18 +85,18 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg"
+              className="menu menu-sm dropdown-content p-8 space-y-4 font-bold rounded-box z-[1] mt-3 w-52  shadow text-lg"
             >
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-2xl">MxAziz</a>
+          <a className="btn btn-ghost text-xl md:text-2xl">MxAziz</a>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end md:hidden">
-          <a className="btn">Download CV</a>
+          <a className="btn btn-sm">Download CV</a>
         </div>
       </div>
     </div>
