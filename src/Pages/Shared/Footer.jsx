@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
     return (
-      <div className="md:flex justify-between items-center border-t-2 mt-8 py-4 border-gray-900 px-8 space-y-4 md:space-y-0">
+      <div className="md:flex justify-between items-center border-t-2 mt-8 py-4 border-gray-800 px-8 space-y-4 md:space-y-0">
         <p> © {new Date().getFullYear()} - All rights reserved</p>
         <em>made with 🩵 at 4:00 am</em>
         {/* social links */}
