@@ -1,4 +1,37 @@
 import React from "react";
+import ProjectCard from "./ProjectCard";
+import carImg from "../../assets/images/carpickup.png"
+import couponImg from "../../assets/images/couponcraze.png"
+import gamerImg from "../../assets/images/gamer.png"
+
+
+const projects = [
+  {
+    title: "CarPickUp",
+    description: "A personal portfolio website built with React & TailwindCSS.",
+    image: carImg,
+    tags: ["React", "TailwindCSS", "JavaScript"],
+    demo: "https://carpickup0.web.app/",
+    github: "https://github.com/your-username/portfolio",
+  },
+  {
+    title: "E-commerce Store",
+    description: "An online shopping website with product filtering & cart.",
+    image: couponImg,
+    tags: ["MERN", "Redux", "Stripe"],
+    demo: "https://discount-pro-ec7f0.web.app/",
+    github: "https://github.com/your-username/ecommerce",
+  },
+  {
+    title: "NextGenReviews",
+    description:
+      "A modern and interactive game review platform where users can add, edit, and delete game reviews.",
+    image: gamerImg,
+    tags: ["MERN", "Redux", "Stripe"],
+    demo: "https://chill-gamer-10.web.app/",
+    github: "https://github.com/MxAziz/NextGenReviews-client",
+  },
+];
 
 const Projects = () => {
   return (
@@ -18,33 +51,32 @@ const Projects = () => {
 
       {/* Project Section */}
       <div className=" flex flex-col items-center text-white ">
-        <h2 className="text-3xl md:text-4xl text-center  text-[#d4d6da] font-bold py-20">
+        <h2 className="text-3xl md:text-4xl text-center  text-[#c5c8ce] font-bold py-20">
           <span className="mr-3">M Y</span> P R O J E C T S
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+        <div className=" gap-8 px-6">
           {/* Project 1 */}
-          <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-2">Project One</h3>
-            <p className="text-gray-300">
-              This is a short description of project one.
-            </p>
+          <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+            {projects.map((project, index) => (
+              <ProjectCard key={index} project={project} />
+            ))}
           </div>
 
           {/* Project 2 */}
-          <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
+          {/* <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Project Two</h3>
             <p className="text-gray-300">
               This is a short description of project two.
             </p>
-          </div>
+          </div> */}
 
           {/* Project 3 */}
-          <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
+          {/* <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Project Three</h3>
             <p className="text-gray-300">
               This is a short description of project three.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
