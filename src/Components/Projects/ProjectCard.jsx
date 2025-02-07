@@ -9,6 +9,7 @@ const ProjectCard = ({ project }) => {
         src={project.image}
         alt={project.title}
         className="w-full h-56  p-6"
+        loading="lazy"
       />
 
       {/* Card Content */}

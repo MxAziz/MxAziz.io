@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-      <div className=" pt-8 md:pt-16 lg:mt-[80px] text-center">
+      <div className=" pt-8 md:pt-16 lg:pt-[80px] text-center">
         <h3 className=" text-3xl md:text-4xl  pt-12 text-[#7E8083] font-bold">
           A B O U T <span className="ml-3">M E</span>
         </h3>
