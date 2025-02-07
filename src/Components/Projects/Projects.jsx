@@ -35,7 +35,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className=" bg-[#424c61] mt-12 rounded-t-[120px]  pb-32">
+    <div className=" bg-[#424c61] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-32">
       {/* SVG Background */}
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"

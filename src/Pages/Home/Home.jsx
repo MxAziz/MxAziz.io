@@ -5,6 +5,7 @@ import Hero from '../../Components/Hero';
 import About from '../../Components/About';
 import Skills from '../../Components/Skills';
 import Projects from '../../Components/Projects/Projects';
+import Contact from './../../Components/Contact/Contact';
 
 const Home = () => {
     return (
@@ -20,6 +21,9 @@ const Home = () => {
         </Element>
         <Element name="projects">
           <Projects></Projects>
+        </Element>
+        <Element name="contact">
+          <Contact></Contact>
         </Element>
       </div>
     );
