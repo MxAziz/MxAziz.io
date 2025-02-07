@@ -37,7 +37,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className=" w-11/12 mx-auto bg-[#424c61] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-28">
+    <div className=" lg:w-11/12 mx-auto bg-[#424c61] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-28">
       {/* SVG Background */}
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -56,29 +56,13 @@ const Projects = () => {
         <h2 className="text-3xl md:text-4xl text-center  text-[#c5c8ce] font-bold py-20">
           <span className="mr-3">M Y</span> P R O J E C T S
         </h2>
-        <div className=" gap-8 px-6">
+        <div className="lg:px-6">
           {/* Project 1 */}
           <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
             {projects.map((project, index) => (
               <ProjectCard key={index} project={project} />
             ))}
           </div>
-
-          {/* Project 2 */}
-          {/* <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-2">Project Two</h3>
-            <p className="text-gray-300">
-              This is a short description of project two.
-            </p>
-          </div> */}
-
-          {/* Project 3 */}
-          {/* <div className="bg-gray-700 p-6 rounded-lg shadow-lg">
-            <h3 className="text-xl font-semibold mb-2">Project Three</h3>
-            <p className="text-gray-300">
-              This is a short description of project three.
-            </p>
-          </div> */}
         </div>
       </div>
     </div>

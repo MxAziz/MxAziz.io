@@ -81,14 +81,14 @@ const Contact = () => {
         >
           <label>Name</label>
           <input
-            className="bg-[#2E3440] border-2 rounded-xl w-full h-14"
+            className="bg-[#2E3440] border-2 rounded-xl w-full h-14 mb-4"
             type="text"
             name="from_name"
             required
           />
           <label>Email</label>
           <input
-            className="bg-[#2E3440] border-2 rounded-xl h-14"
+            className="bg-[#2E3440] border-2 rounded-xl h-14 mb-4"
             type="email"
             name="from_email"
             required
