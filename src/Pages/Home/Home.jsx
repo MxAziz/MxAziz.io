@@ -4,6 +4,7 @@ import { Element } from "react-scroll";
 import Hero from '../../Components/Hero';
 import About from '../../Components/About';
 import Skills from '../../Components/Skills';
+import Projects from '../../Components/Projects/Projects';
 
 const Home = () => {
     return (
@@ -16,6 +17,9 @@ const Home = () => {
         </Element>
         <Element name="skills">
           <Skills></Skills>
+        </Element>
+        <Element name="projects">
+          <Projects></Projects>
         </Element>
       </div>
     );

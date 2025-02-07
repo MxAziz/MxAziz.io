@@ -62,7 +62,7 @@ const Skills = () => {
       transition={{ duration: 0.8 }}
       className=" text-white lg:p-20 max-w-6xl mx-auto p-6  mt-10 "
     >
-      <h3 className=" text-3xl text-center  text-[#7E8083] font-bold">
+      <h3 className=" text-3xl md:text-4xl text-center  text-[#7E8083] font-bold">
         M Y <span className=" ml-3">S K I L L S</span>
       </h3>
       <div className="flex lg:flex-row flex-col gap-10 justify-center items-center">
