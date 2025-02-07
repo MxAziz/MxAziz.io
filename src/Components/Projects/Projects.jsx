@@ -8,26 +8,28 @@ import gamerImg from "../../assets/images/gamer.png"
 const projects = [
   {
     title: "CarPickUp",
-    description: "A personal portfolio website built with React & TailwindCSS.",
+    description:
+      "Car Rental System – User-centric platform for seamless car bookings, user authentication, and efficient inventory management.",
     image: carImg,
-    tags: ["React", "TailwindCSS", "JavaScript"],
+    tags: ["MERN", "TailwindCSS", "React-Slick"],
     demo: "https://carpickup0.web.app/",
-    github: "https://github.com/your-username/portfolio",
+    github: "https://github.com/MxAziz/CarPickUp-client",
   },
   {
-    title: "E-commerce Store",
-    description: "An online shopping website with product filtering & cart.",
+    title: "CouponCraze",
+    description:
+      "CouponCraze is a coupon-collecting application built using React. It provides a user-friendly interface for exploring, collecting, and managing coupons.",
     image: couponImg,
-    tags: ["MERN", "Redux", "Stripe"],
+    tags: ["Firebase", "React Router", "TailwindCSS"],
     demo: "https://discount-pro-ec7f0.web.app/",
-    github: "https://github.com/your-username/ecommerce",
+    github: "https://github.com/MxAziz/CouponCraze-with-Firebase",
   },
   {
     title: "NextGenReviews",
     description:
       "A modern and interactive game review platform where users can add, edit, and delete game reviews.",
     image: gamerImg,
-    tags: ["MERN", "Redux", "Stripe"],
+    tags: ["MERN", "SweetAleart2", "TypeWriter"],
     demo: "https://chill-gamer-10.web.app/",
     github: "https://github.com/MxAziz/NextGenReviews-client",
   },
@@ -35,7 +37,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className=" bg-[#424c61] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-32">
+    <div className=" w-11/12 mx-auto bg-[#424c61] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-28">
       {/* SVG Background */}
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"
