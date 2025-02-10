@@ -10,7 +10,7 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           hashSpy={true}
-          className="cursor-pointer hover:underline"
+          className="cursor-pointer hover:text-[#60d6f1] transition duration-300"
         >
           Home
         </Link>
@@ -21,7 +21,7 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           hashSpy={true}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#60d6f1] transition duration-300"
         >
           About
         </Link>
@@ -32,7 +32,7 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           hashSpy={true}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#60d6f1] transition duration-300"
         >
           Skills
         </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           hashSpy={true}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#60d6f1] transition duration-300"
         >
           Projects
         </Link>
@@ -54,7 +54,7 @@ const Navbar = () => {
           smooth={true}
           duration={500}
           hashSpy={true}
-          className="cursor-pointer"
+          className="cursor-pointer hover:text-[#60d6f1] transition duration-200"
         >
           Contact
         </Link>
@@ -96,9 +96,9 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
         <div className="navbar-end lg:hidden">
-          <a className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
+          <a className="border text-sm flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
           >
-            Resume
+           Download Resume
           </a>
         </div>
       </div>

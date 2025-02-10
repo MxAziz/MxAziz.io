@@ -3,7 +3,8 @@ import { Typewriter } from "react-simple-typewriter";
 import azizImg from "../assets/images/aziz-ai.jpg"
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+// import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -36,31 +37,40 @@ const Hero = () => {
           </p>
           {/* social links */}
           <div className="flex gap-2 mt-12">
-            <a  className='hidden lg:block' >
+            <a className="hidden lg:block">
               <div className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#384143] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
-                Resume
+                 Resume
               </div>
             </a>
-            <Link to="https://github.com/MxAziz" target="_blank">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              hashSpy={true}
+              className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#384143] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
+            >
+              Hire Me
+            </Link>
+            <a href="https://github.com/MxAziz" target="_blank">
               <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaGithub className="text-2xl" />
               </div>
-            </Link>
-            <Link to="https://x.com/Mr_MxAziz" target="_blank">
+            </a>
+            <a href="https://x.com/Mr_MxAziz" target="_blank">
               <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaXTwitter className="text-2xl" />
               </div>
-            </Link>
-            <Link to="https://www.linkedin.com/in/mxaziz/" target="_blank">
+            </a>
+            <a href="https://www.linkedin.com/in/mxaziz/" target="_blank">
               <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaLinkedinIn className="text-2xl" />
               </div>
-            </Link>
-            <Link to="https://www.facebook.com/mr.mxaziz" target="_blank">
+            </a>
+            <a href="https://www.facebook.com/mr.mxaziz" target="_blank">
               <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaFacebook className="text-2xl" />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
 

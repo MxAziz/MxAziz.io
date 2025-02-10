@@ -8,7 +8,7 @@ const ProjectCard = ({ project }) => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-56  p-6"
+        className="w-full h-56 p-5 rounded-2xl"
         loading="lazy"
       />
 
