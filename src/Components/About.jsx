@@ -13,7 +13,7 @@ const About = () => {
           performance, I strive to deliver the best web experiences. Always
           exploring new technologies to stay ahead in the evolving tech world.
         </p> */}
-        <p className=" w-11/12 lg:w-2/3 mx-auto text-base md:text-lg text-gray-300 mt-10">
+        <p className=" w-11/12 lg:w-2/3 mx-auto text-base md:text-lg text-gray-300 mt-10 select-none">
           Hello, I’m <em className=" font-semibold">Muhammad Aziz</em>,I am a
           first-year student at Pabna University of Science and Technology
           (PUST), pursuing a degree in

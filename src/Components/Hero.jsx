@@ -31,7 +31,7 @@ const Hero = () => {
               delaySpeed={1000}
             />
           </span>
-          <p className=" mt-6 text-base md:text-lg text-gray-300 ">
+          <p className=" mt-6 text-base md:text-lg text-gray-300 select-none">
             Bringing ideas to life with clean code, intuitive design, and
             seamless user experiences. Let's build something amazing together!
           </p>
