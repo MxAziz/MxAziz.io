@@ -98,7 +98,7 @@ const Skills = () => {
             >
               {index + 1}. {item.skill}
               <progress
-                className="progress text-[#55828c] bg-gray-700 w-56"
+                className="progress text-[#55828c] bg-gray-700 dark:bg-[#373c3d] w-56"
                 value={item.value}
                 max="100"
               ></progress>
@@ -130,7 +130,7 @@ const Skills = () => {
             >
               {index + 1}. {item.skill}{" "}
               <progress
-                className="progress text-[#55828c] bg-gray-700 w-56"
+                className="progress text-[#55828c] bg-gray-700 dark:bg-[#373c3d] w-56"
                 value={item.value}
                 max="100"
               ></progress>
