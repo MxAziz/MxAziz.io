@@ -1,4 +1,5 @@
 import { Link } from "react-scroll";
+import ThemeToggle from "../../Components/Theme/ThemeToggle";
 
 
 const Navbar = () => {
@@ -90,15 +91,15 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <em  className="btn btn-ghost text-xl md:text-2xl">MxAziz</em>
+          <em className="btn btn-ghost text-xl md:text-2xl">MxAziz</em>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <div className="navbar-end lg:hidden">
-          <a className="border text-sm flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
-          >
-           Download Resume
+        <div className=" ">
+          <ThemeToggle></ThemeToggle>
+          <a className="border lg:hidden ml-2 text-sm flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+            Resume
           </a>
         </div>
       </div>
