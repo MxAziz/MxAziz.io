@@ -37,9 +37,9 @@ const Hero = () => {
           </p>
           {/* social links */}
           <div className="flex gap-2 mt-12">
-            <a className="hidden lg:block">
+            <a download href="/aziz-resume.pdf" className="hidden lg:block">
               <div className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#384143] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
-                 Resume
+                Resume
               </div>
             </a>
             <Link

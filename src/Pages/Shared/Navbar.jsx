@@ -91,16 +91,18 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <em className="btn btn-ghost text-xl md:text-2xl">
-            MxAziz
-          </em>
+          <em className="btn btn-ghost text-xl md:text-2xl">MxAziz</em>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal">{links}</ul>
         </div>
         <div className=" ">
           <ThemeToggle></ThemeToggle>
-          <a className="border lg:hidden ml-2 lg:ml-0 text-sm flex items-center justify-center px-4 py-2 rounded-xl  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+          <a
+            download
+            href="/aziz-resume.pdf"
+            className="border lg:hidden ml-2 lg:ml-0 text-sm flex items-center justify-center px-4 py-2 rounded-xl  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
+          >
             Resume
           </a>
         </div>
