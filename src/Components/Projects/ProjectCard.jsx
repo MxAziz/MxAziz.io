@@ -3,7 +3,7 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="bg-[#2E3440] text-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
+    <div className="bg-[#2E3440] dark:bg-[#384143] text-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl">
       {/* Project Image */}
       <img
         src={project.image}
@@ -22,7 +22,7 @@ const ProjectCard = ({ project }) => {
           {project.tags.map((tag, index) => (
             <span
               key={index}
-              className="bg-gray-700 text-gray-300 text-xs font-semibold px-3 py-1 rounded-full"
+              className="bg-gray-700 dark:bg-[#485255] text-gray-300 text-xs font-semibold px-3 py-1 rounded-full"
             >
               {tag}
             </span>

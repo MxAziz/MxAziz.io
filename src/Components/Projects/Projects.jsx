@@ -37,7 +37,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className=" lg:w-11/12 mx-auto bg-[#424c61] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-28">
+    <div className=" lg:w-11/12 mx-auto bg-[#424c61] dark:bg-[#4e585b] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-28">
       {/* SVG Background */}
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"
