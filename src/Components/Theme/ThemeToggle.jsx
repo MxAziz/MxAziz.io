@@ -21,9 +21,10 @@ const ThemeToggle = () => {
         onChange={() => setTheme(theme === "dark" ? "light" : "dark")}
       />
 
-      {/* Sun icon */}
+          {/* Sun icon */}
+          {/* akhane swap-on/off ta aktu different ache (work purpose) */}
       <svg
-        className="swap-on h-8 w-8 fill-current"
+        className="swap-off h-8 w-8 fill-current"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
@@ -32,7 +33,7 @@ const ThemeToggle = () => {
 
       {/* Moon icon */}
       <svg
-        className="swap-off h-8 w-8 fill-current"
+        className="swap-on h-8 w-8 fill-current"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
       >
