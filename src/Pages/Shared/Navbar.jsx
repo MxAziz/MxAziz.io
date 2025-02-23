@@ -65,7 +65,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto fixed top-0 navbar md:px-12 bg-[#2E3440] dark:bg-[#384143] text-white shadow-md z-50  flex justify-center space-x-4">
+      <div className="max-w-screen-2xl mx-auto  fixed top-0 navbar md:px-12 bg-[#2E3440] dark:bg-[#384143] text-white shadow-md z-50  flex justify-center space-x-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -91,14 +91,16 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <em className="btn btn-ghost text-xl md:text-2xl">MxAziz</em>
+          <em className="btn btn-ghost text-xl md:text-2xl">
+            MxAziz
+          </em>
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{links}</ul>
+          <ul className="menu menu-horizontal">{links}</ul>
         </div>
         <div className=" ">
           <ThemeToggle></ThemeToggle>
-          <a className="border lg:hidden ml-2 text-sm flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+          <a className="border lg:hidden ml-2 lg:ml-0 text-sm flex items-center justify-center px-4 py-2 rounded-xl  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
             Resume
           </a>
         </div>
