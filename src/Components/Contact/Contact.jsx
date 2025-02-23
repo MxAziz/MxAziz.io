@@ -48,7 +48,7 @@ const Contact = () => {
 
   return (
     <div className=" pb-8">
-      <h1 className="text-3xl md:text-4xl text-center  text-[#7E8083] font-bold mt-8 py-10 md:py-16 lg:py-20">
+      <h1 className="text-3xl md:text-4xl text-center  text-[#7E8083] dark:text-[#B4F4E3] font-bold mt-8 py-10 md:py-16 lg:py-20">
         C O N T A C T <span className="ml-3">U S</span>
       </h1>
       {/* email js */}
@@ -81,21 +81,21 @@ const Contact = () => {
         >
           <label>Name</label>
           <input
-            className="bg-[#2E3440] border-2 rounded-xl w-full h-14 mb-4"
+            className="bg-[#2E3440] dark:bg-[#384143] border-2 rounded-xl w-full h-14 mb-4"
             type="text"
             name="from_name"
             required
           />
           <label>Email</label>
           <input
-            className="bg-[#2E3440] border-2 rounded-xl h-14 mb-4"
+            className="bg-[#2E3440] dark:bg-[#384143] border-2 rounded-xl h-14 mb-4"
             type="email"
             name="from_email"
             required
           />
           <label>Message</label>
           <textarea
-            className="bg-[#2E3440] border-2 min-h-24 rounded-xl"
+            className="bg-[#2E3440] dark:bg-[#384143] border-2 min-h-24 rounded-xl"
             name="message"
             required
           />
