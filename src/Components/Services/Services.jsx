@@ -4,7 +4,7 @@ import "./Service.css";
 
 const Services = () => {
   return (
-    <div className="relative bg-[#424c61 text-black   py- overflow-hidden">
+    <div className="relative bg-[#424c6] text-white  py- overflow-hidden">
       {/* Water Wave Background */}
       {/* <div className="absolute inset-0 w-full h-32 overflow-hidden leading-none z-0">
         <svg
@@ -29,7 +29,7 @@ const Services = () => {
       </section>
 
       {/* Services Content */}
-      <div className="container mx-auto text-center relative z-10 pt-10">
+      <div className="container mx-auto text-center relative z-10 pt-28">
         <h3 className="text-3xl md:text-4xl text-center text-[#7E8083] font-bold">
           M Y <span className="ml-3">S E R V I C E S</span>
         </h3>
@@ -66,6 +66,7 @@ const Services = () => {
           </motion.div>
         </div>
       </div>
+
     </div>
   );
 };
