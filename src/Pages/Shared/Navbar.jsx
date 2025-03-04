@@ -51,6 +51,17 @@ const Navbar = () => {
       </li>
       <li>
         <Link
+          to="services"
+          smooth={true}
+          duration={500}
+          hashSpy={true}
+          className="cursor-pointer hover:text-[#60d6f1] transition duration-300"
+        >
+          Services
+        </Link>
+      </li>
+      <li>
+        <Link
           to="contact"
           smooth={true}
           duration={500}

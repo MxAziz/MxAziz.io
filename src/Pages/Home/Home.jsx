@@ -6,11 +6,12 @@ import About from '../../Components/About';
 import Skills from '../../Components/Skills';
 import Projects from '../../Components/Projects/Projects';
 import Contact from './../../Components/Contact/Contact';
+import Services from '../../Components/Services/Services';
 
 const Home = () => {
     return (
       <div>
-        <Element name="hero"  >
+        <Element name="hero">
           <Hero></Hero>
         </Element>
         <Element name="about">
@@ -21,6 +22,9 @@ const Home = () => {
         </Element>
         <Element name="projects">
           <Projects></Projects>
+        </Element>
+        <Element name="services">
+          <Services></Services>
         </Element>
         <Element name="contact">
           <Contact></Contact>
