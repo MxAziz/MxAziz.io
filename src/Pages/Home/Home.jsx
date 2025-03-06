@@ -7,6 +7,7 @@ import Skills from '../../Components/Skills';
 import Projects from '../../Components/Projects/Projects';
 import Contact from './../../Components/Contact/Contact';
 import Services from '../../Components/Services/Services';
+import ScrollToTop from '../../Components/ScrollToTop';
 
 const Home = () => {
     return (
@@ -29,6 +30,11 @@ const Home = () => {
         <Element name="contact">
           <Contact></Contact>
         </Element>
+
+        {/* scroll arrow sign */}
+        <div className="">
+          <ScrollToTop></ScrollToTop>
+        </div>
       </div>
     );
 };
