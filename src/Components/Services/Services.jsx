@@ -12,7 +12,7 @@ const Services = () => {
         <div className=" w-11/12 mx-auto grid md:grid-cols-3 gap-6 pt-10">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="bg-[#424c61] p-6 rounded-xl shadow-md"
+            className="bg-[#424c61] dark:bg-[#4e585b] p-6 rounded-xl shadow-md"
           >
             <FaCode className="text-4xl mx-auto mb-4" />
             <h3 className="text-xl font-semibold">Web Development</h3>
@@ -23,7 +23,7 @@ const Services = () => {
 
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="bg-[#424c61] p-6 rounded-xl shadow-md"
+            className="bg-[#424c61] dark:bg-[#4e585b] p-6 rounded-xl shadow-md"
           >
             <FaPaintBrush className="text-4xl mx-auto mb-4" />
             <h3 className="text-xl font-semibold">UI/UX Design</h3>
@@ -34,7 +34,7 @@ const Services = () => {
 
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="bg-[#424c61] p-6 rounded-xl shadow-md"
+            className="bg-[#424c61] dark:bg-[#4e585b] p-6 rounded-xl shadow-md"
           >
             <FaMobileAlt className="text-4xl mx-auto mb-4" />
             <h3 className="text-xl font-semibold">Mobile Responsive</h3>

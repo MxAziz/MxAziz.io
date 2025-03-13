@@ -10,4 +10,5 @@
  *
  * common---------
  * title text color = text-[#7E8083]
+ * specific font : Great Vibes
  */
