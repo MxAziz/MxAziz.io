@@ -49,7 +49,7 @@ const Contact = () => {
   return (
     <div className=" pb-8">
       <h1 className="text-3xl md:text-4xl text-center  text-[#7E8083] font-bold mt-8 py-10 md:py-16 lg:py-20">
-        C O N T A C T <span className="ml-3">U S</span>
+        C O N T A C T <span className="ml-3">M E</span>
       </h1>
       {/* email js */}
       <div className="flex flex-col lg:flex-row lg:items-center lg:justify-around">

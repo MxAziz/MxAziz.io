@@ -29,10 +29,6 @@ const About = () => {
           to stay ahead in the ever-evolving tech landscape. Writing clean,
           maintainable code and solving complex problems excite me the most.{" "}
           <br />
-          <br /> Beyond coding, I have a keen interest in game development,
-          open-source contributions, and tech blogging. When I’m not in front of
-          a screen, you’ll probably find me exploring Linux, reading about new
-          technologies, or enjoying some gaming sessions. <br />
           <br /> I believe in continuous learning, creativity, and delivering
           high-quality web solutions that enhance user experience. Let’s build
           something amazing together! 🚀

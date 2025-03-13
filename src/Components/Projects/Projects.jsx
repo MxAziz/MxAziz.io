@@ -44,7 +44,8 @@ const Projects = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
-        className="w-full border-2"
+        className="w-full h-48"
+        preserveAspectRatio="none"
       >
         <path
           fill="#424c61"
@@ -55,7 +56,7 @@ const Projects = () => {
 
       {/* Project Section */}
       <div className="bg-[#424c61] dark:bg-[#4e585b] flex flex-col items-center text-white pb-14 md:pb-20 ">
-        <h2 className="text-3xl md:text-4xl text-center  text-[#c5c8ce] font-bold py-10">
+        <h2 className="text-3xl md:text-4xl text-center  text-[#c5c8ce] font-bold pb-14">
           <span className="mr-3">M Y</span> P R O J E C T S
         </h2>
         <div className="lg:px-6">
