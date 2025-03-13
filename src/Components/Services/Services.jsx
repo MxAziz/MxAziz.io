@@ -1,33 +1,9 @@
 import { motion } from "framer-motion";
 import { FaCode, FaPaintBrush, FaMobileAlt } from "react-icons/fa";
-import "./Service.css";
 
 const Services = () => {
   return (
-    <div className="relative bg-[#424c6] text-white  py- overflow-hidden">
-      {/* Water Wave Background */}
-      {/* <div className="absolute inset-0 w-full h-32 overflow-hidden leading-none z-0">
-        <svg
-          className="absolute top-0 left-0 w-full min-w-[1440px] h-full"
-          viewBox="0 0 1440 320"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill="#424c61"
-            fillOpacity="1"
-            d="M0,160L80,138.7C160,117,320,75,480,96C640,117,800,203,960,202.7C1120,203,1280,117,1360,74.7L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-          ></path>
-        </svg>
-      </div> */}
-
-      {/* water wave animation youtube */}
-      <section className="bg-[#424c61] dark:bg-[#4e585b]">
-        <div className="wave wave1"></div>
-        <div className="wave wave2"></div>
-        <div className="wave wave3"></div>
-        <div className="wave wave4"></div>
-      </section>
-
+    <div className="relative bg-[#424c6] text-white  ">
       {/* Services Content */}
       <div className="container mx-auto text-center relative z-10 pt-28">
         <h3 className="text-3xl md:text-4xl text-center text-[#7E8083] font-bold">

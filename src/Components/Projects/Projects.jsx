@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import carImg from "../../assets/images/carpickup.png"
 import couponImg from "../../assets/images/couponcraze.png"
 import gamerImg from "../../assets/images/gamer.png"
+import "./WaveAnimation.css"
 
 
 const projects = [
@@ -38,23 +39,23 @@ const projects = [
 const Projects = () => {
   return (
     // <div className=" lg:w-11/12 mx-auto bg-[#424c61] dark:bg-[#4e585b] mt-12 rounded-t-[50px] md:rounded-t-[100px] lg:rounded-t-[120px] rounded-b-[50px] md:rounded-b-[100px] lg:rounded-b-[120px] pb-14 md:pb-24 lg:pb-28">
-    <div className="  bg-[#424c61] dark:bg-[#4e585b]   pb-14 md:pb-24">
+    <div className="    ">
       {/* SVG Background */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 320"
-        className="w-full "
+        className="w-full border-2"
       >
         <path
-          fill="#2E3440"
+          fill="#424c61"
           fillOpacity="1"
           d="M0,64L60,74.7C120,85,240,107,360,101.3C480,96,600,64,720,48C840,32,960,32,1080,48C1200,64,1320,96,1380,112L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
         ></path>
       </svg>
 
       {/* Project Section */}
-      <div className=" flex flex-col items-center text-white ">
-        <h2 className="text-3xl md:text-4xl text-center  text-[#c5c8ce] font-bold py-20">
+      <div className="bg-[#424c61] dark:bg-[#4e585b] flex flex-col items-center text-white pb-14 md:pb-20 ">
+        <h2 className="text-3xl md:text-4xl text-center  text-[#c5c8ce] font-bold py-10">
           <span className="mr-3">M Y</span> P R O J E C T S
         </h2>
         <div className="lg:px-6">
@@ -66,6 +67,14 @@ const Projects = () => {
           </div>
         </div>
       </div>
+
+      {/* water wave animation youtube */}
+      <section className="bg-[#424c61]  dark:bg-[#4e585b]">
+        <div className="wave wave1"></div>
+        <div className="wave wave2"></div>
+        <div className="wave wave3"></div>
+        <div className="wave wave4"></div>
+      </section>
     </div>
   );
 };
