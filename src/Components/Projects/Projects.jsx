@@ -43,9 +43,9 @@ const Projects = () => {
       {/* SVG Background */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 320"
-        className="w-full h-48 fill-[#424c61] dark:fill-[#4e585b]"
-        preserveAspectRatio="none"
+        viewBox="0 0 1440 190"
+        className="w-full h-24 md:h-36 lg:h-40  fill-[#424c61] dark:fill-[#4e585b]"
+        preserveAspectRatio="xMidYMax slice"
       >
         <path
           // fill="#424c61"
