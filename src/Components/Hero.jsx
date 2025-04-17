@@ -1,8 +1,8 @@
 import React from 'react';
 import { Typewriter } from "react-simple-typewriter";
 import azizImg from "../assets/images/aziz-ai.jpg"
-import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { Link } from 'react-scroll';
 // import { Link } from 'react-router-dom';
 
@@ -38,7 +38,7 @@ const Hero = () => {
           {/* social links */}
           <div className="flex gap-2 mt-12">
             <a download href="/aziz-resume.pdf" className="hidden lg:block">
-              <div className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#384143] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+              <div className="border px-4 py-2 rounded-xl mr-2 cursor-pointer hover:bg-[#ffffff] hover:text-black hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 Resume
               </div>
             </a>
@@ -47,28 +47,28 @@ const Hero = () => {
               smooth={true}
               duration={500}
               hashSpy={true}
-              className="border flex items-center justify-center px-4 py-2 rounded-xl mr-2  cursor-pointer hover:bg-[#384143] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
+              className="border px-4 py-2 rounded-xl mr-2 cursor-pointer hover:bg-[#ffffff] hover:text-black hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
             >
               Hire Me
             </Link>
             <a href="https://github.com/MxAziz" target="_blank">
-              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#ffffff] hover:text-black hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaGithub className="text-2xl" />
               </div>
             </a>
             <a href="https://x.com/Mr_MxAziz" target="_blank">
-              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#ffffff] hover:text-black hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaXTwitter className="text-2xl" />
               </div>
             </a>
             <a href="https://www.linkedin.com/in/mxaziz/" target="_blank">
-              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#ffffff] hover:text-black hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
                 <FaLinkedinIn className="text-2xl" />
               </div>
             </a>
             <a href="https://www.facebook.com/mr.mxaziz" target="_blank">
-              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
-                <FaFacebook className="text-2xl" />
+              <div className="border flex items-center justify-center p-2 rounded-full w-11 cursor-pointer hover:bg-[#ffffff] hover:text-black hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out">
+                <FaFacebookF className="text-2xl" />
               </div>
             </a>
           </div>
