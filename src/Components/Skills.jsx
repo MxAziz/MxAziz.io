@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion";
 
 const Skills = () => {
   const skillRef = useRef();
-  const isInView = useInView(skillRef, { once: true });
+  const isInView = useInView(skillRef, { once: true });  // akhane kebol akbar check kora hoyeche.
 
   return (
     <>
@@ -35,7 +35,7 @@ const Skills = () => {
               { skill: "Firebase", value: 75 },
               { skill: "Node js", value: 50 },
               { skill: "Express js", value: 66 },
-              { skill: "MongoDB", value: 60 },
+              { skill: "MongoDB", value: 80 },
               { skill: "Next js", value: 30 },
               { skill: "Git", value: 80 },
               { skill: "Github", value: 85 },
@@ -70,7 +70,7 @@ const Skills = () => {
             </p>
             {[
               { skill: "Active Listener", value: 80 },
-              { skill: "Fast Learning Attitude", value: 75 },
+              { skill: "Fast Learner", value: 75 },
               { skill: "Problem-solving Attitude", value: 60 },
             ].map((item, index) => (
               <motion.p

@@ -52,9 +52,9 @@ const Contact = () => {
         C O N T A C T <span className="ml-3">M E</span>
       </h1>
       {/* email js */}
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-around">
+      <div className=" w-11/12 mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-around">
         {/* left  */}
-        <div className="lg:w-1/2 ml-8 lg:ml-0 lg:flex items-center justify-center">
+        <div className=" border-2 lg:w-1/2 ml-8 lg:ml-0 lg:flex items-center justify-center">
           <div className=" mt-4 lg:mt-0 space-y-4 lg:space-y-6">
             {contacts.map((contact, idx) => {
               return (
@@ -74,10 +74,12 @@ const Contact = () => {
           </div>
         </div>
         {/* right */}
-        <form
+        <div className=" w-full ">
+          <form
           ref={form}
           onSubmit={sendEmail}
-          className="flex flex-col w-10/12 lg:w-1/3 mx-auto lg:mr-12 mt-8 lg:mt-0 "
+          // className="flex flex-col w-10/12 lg:w-1/3 mx-auto lg:mr-12 mt-8 lg:mt-0 "
+          className=" border-2 w-full flex flex-col mx-auto "
         >
           <label>Name</label>
           <input
@@ -105,6 +107,9 @@ const Contact = () => {
             className="btn bg-gray-300 border-2 flex items-center justify-center px-4 py-2 rounded-xl cursor-pointer hover:shadow-lg mt-4 "
           />
         </form>
+
+        </div>
+
       </div>
     </div>
   );
