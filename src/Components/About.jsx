@@ -45,7 +45,7 @@ const About = () => {
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.3 }}
-                className="bg-[#2E3440] p-6 rounded-2xl shadow-lg max-w-md w-full "
+                className="bg-[#2E3440] dark:bg-[#384143] p-6 rounded-2xl shadow-lg max-w-md w-full "
               >
                 <h4 className="text-2xl font-bold text-[#dce3e3] mb-3">
                   🎓 Education
@@ -63,14 +63,14 @@ const About = () => {
                 initial={{ opacity: 0, x: 30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.9, delay: 0.3 }}
-                className="bg-[#2E3440] p-6 rounded-2xl shadow-lg max-w-md w-full"
+                className="bg-[#2E3440] dark:bg-[#384143] p-6 rounded-2xl shadow-lg max-w-md w-full"
               >
                 <h4 className="text-2xl font-bold text-[#dce3e3] mb-3">
                   💼 Experience
                 </h4>
                 <p className="text-gray-300 text-base">
-                  Frontend Developer at XYZ Company <br />
-                  Internship | June 2024 - Present
+                  Frontend Developer at __________________ <br />
+                  Internship | February 2025 - Present
                 </p>
               </motion.div>
             </div>

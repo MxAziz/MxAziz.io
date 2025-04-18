@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion";
 
 const Skills = () => {
   const skillRef = useRef();
-  const isInView = useInView(skillRef, { once: true });  // akhane kebol akbar check kora hoyeche.
+  const isInView = useInView(skillRef, );  // .comma ar pore {once: true} dile akbar check korbe :)
 
   return (
     <>
