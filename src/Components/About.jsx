@@ -7,20 +7,13 @@ const About = () => {
         <h3 className=" text-3xl md:text-4xl  pt-12 text-[#c4c7cd] font-bold">
           A B O U T <span className="ml-3">M E</span>
         </h3>
-        {/* <p className=" w-11/12 lg:w-3/5 mx-auto text-lg text-gray-50 mt-8">
-          I am <em className=" font-semibold">Muhammad Aziz</em>, a dedicated
-          Frontend Developer who loves bringing ideas to life through clean code
-          and elegant design. Whether it's building a sleek UI or optimizing
-          performance, I strive to deliver the best web experiences. Always
-          exploring new technologies to stay ahead in the evolving tech world.
-        </p> */}
+
         <div className="">
           <p className=" w-11/12 lg:w-2/3 mx-auto text-base md:text-lg text-gray-00 mt-10 select-none">
             Hello, I’m <em className=" font-semibold">Muhammad Aziz</em>,I am a
             first-year student at Pabna University of Science and Technology
             (PUST), pursuing a degree in
             <em className=" font-semibold">
-              {" "}
               Information and Communication Engineering (ICE)
             </em>
             . a passionate Frontend Developer dedicated to crafting seamless and
@@ -28,11 +21,14 @@ const About = () => {
             with curiosity and has evolved into a deep passion for building
             dynamic, user-friendly applications. From designing intuitive UI
             components to optimizing performance, I enjoy every aspect of
-            frontend development. <br /> <br /> I specialize in React, Tailwind
+            frontend development. <br />
+
+            <br /> I specialize in React, Tailwind
             CSS, and modern web technologies, constantly exploring new
             frameworks and best practices to stay ahead in the ever-evolving
             tech landscape. Writing clean, maintainable code and solving complex
             problems excite me the most. <br />
+
             <br /> I believe in continuous learning, creativity, and delivering
             high-quality web solutions that enhance user experience. Let’s build
             something amazing together! 🚀
@@ -52,7 +48,7 @@ const About = () => {
                 </h4>
                 <p className="text-gray-300 text-base">
                   Pabna University of Science and Technology (PUST) <br />
-                  B.Sc. in Information and Communication Engineering (ICE){" "}
+                  B.Sc. in Information and Communication Engineering (ICE)
                   <br />
                   <span className="text-sm text-gray-400">2024 - Present</span>
                 </p>
