@@ -32,10 +32,11 @@ const About = () => {
             <br /> I believe in continuous learning, creativity, and delivering
             high-quality web solutions that enhance user experience. Let’s build
             something amazing together! 🚀
-          </p>
+         </p>
           {/* education and experience sidebar */}
+          {/* TODO : fix mobile view problem like skills section */}
           <div className="">
-            <div className="mt-16 flex flex-col md:flex-row gap-10 justify-center items-start md:items-center">
+             <div className="mt-16 flex flex-col md:flex-row gap-10 justify-center items-start md:items-center">
               {/* Education */}
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
