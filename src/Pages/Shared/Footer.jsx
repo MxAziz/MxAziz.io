@@ -14,7 +14,7 @@ const Footer = () => {
           {new Date().getFullYear()} | All Rights Reserved
         </p>
         <p>
-          <em>Made with 🩵 at 4:00 am</em>
+          <em>Made with 🩵❤️ at 4:00 am</em>
         </p>
         {/* social links */}
         <div className="flex gap-2 mr-6">

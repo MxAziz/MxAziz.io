@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const About = () => {
+  //TODO: future improvements: two rows --> fixed about me text and right side scrollable sidebar for education and experience
     return (
       <div className=" pt-8 md:pt-16 pb-14 md:pb-24 lg:pb-28 mt-28 md:mt-36 text-center bg-[#424c61] dark:bg-[#4e585b] rounded-[50px] md:rounded-[100px] lg:rounded-[120px]">
         <h3 className=" text-3xl md:text-4xl  pt-12 text-[#c4c7cd] font-bold">
@@ -35,14 +36,13 @@ const About = () => {
          </p>
           {/* education and experience sidebar */}
           {/* TODO : fix mobile view problem like skills section */}
-          <div className="">
              <div className="mt-16 flex flex-col md:flex-row gap-10 justify-center items-start md:items-center">
               {/* Education */}
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.7, delay: 0.3 }}
-                className="bg-[#2E3440] dark:bg-[#384143] p-6 rounded-2xl shadow-lg max-w-md w-full "
+                className="bg-[#2E3440] dark:bg-[#384143] p-6 rounded-2xl shadow-lg md:max-w-md md:w-full overflow-hidden"
               >
                 <h4 className="text-2xl font-bold text-[#dce3e3] mb-3">
                   🎓 Education
@@ -71,7 +71,6 @@ const About = () => {
                 </p>
               </motion.div>
             </div>
-          </div>
         </div>
       </div>
     );
