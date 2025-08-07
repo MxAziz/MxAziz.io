@@ -102,7 +102,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a href="https://mxaziz.netlify.app">
+          <a href="https://mxaziz.vercel.app">
             <em className=" font-bold text-xl md:text-2xl">MxAziz</em>
           </a>
         </div>
