@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import carImg from "../../assets/images/carpickup.png"
 import couponImg from "../../assets/images/couponcraze.png"
 import gamerImg from "../../assets/images/gamer.png"
+import bookImg from "../../assets/images/booknest.png"
 import "./WaveAnimation.css"
 
 
@@ -33,6 +34,15 @@ const projects = [
     tags: ["MERN", "SweetAleart2", "TypeWriter"],
     demo: "https://chill-gamer-10.web.app/",
     github: "https://github.com/MxAziz/NextGenReviews-client",
+  },
+  {
+    title: "BookNest",
+    description:
+      "BookNest is a minimal library management system built using React, TypeScript, Redux Toolkit Query (RTK Query)",
+    image: bookImg,
+    tags: ["TypeScript", "Mongoose", "Redux", "Express"],
+    demo: "https://booknest-two-sigma.vercel.app/",
+    github: "https://github.com/MxAziz/LMS-with-Redux-toolkit",
   },
 ];
 
