@@ -1,13 +1,22 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import carImg from "../../assets/images/carpickup.png"
 import couponImg from "../../assets/images/couponcraze.png"
 import gamerImg from "../../assets/images/gamer.png"
 import bookImg from "../../assets/images/booknest.png"
+import walletxImg from "../../assets/images/walletx.png"
 import "./WaveAnimation.css"
 
 
 const projects = [
+  {
+    title: "WalletX",
+    description:
+      "Digital Wallet – A secure platform for managing your digital assets, transactions, and user authentication.",
+    image: walletxImg,
+    tags: ["TypeScript", "Mongoose", "Redux", "Shadcn"],
+    demo: "https://walletx-brown.vercel.app/",
+    github: "https://github.com/MxAziz/WalletX",
+  },
   {
     title: "CarPickUp",
     description:
@@ -16,6 +25,15 @@ const projects = [
     tags: ["MERN", "TailwindCSS", "React-Slick"],
     demo: "https://carpickup0.web.app/",
     github: "https://github.com/MxAziz/CarPickUp-client",
+  },
+  {
+    title: "BookNest",
+    description:
+      "BookNest is a minimal library management system built using React, TypeScript, Redux Toolkit Query (RTK Query)",
+    image: bookImg,
+    tags: ["TypeScript", "Mongoose", "Redux", "Express"],
+    demo: "https://booknest-two-sigma.vercel.app/",
+    github: "https://github.com/MxAziz/LMS-with-Redux-toolkit",
   },
   {
     title: "CouponCraze",
@@ -35,15 +53,7 @@ const projects = [
     demo: "https://chill-gamer-10.web.app/",
     github: "https://github.com/MxAziz/NextGenReviews-client",
   },
-  {
-    title: "BookNest",
-    description:
-      "BookNest is a minimal library management system built using React, TypeScript, Redux Toolkit Query (RTK Query)",
-    image: bookImg,
-    tags: ["TypeScript", "Mongoose", "Redux", "Express"],
-    demo: "https://booknest-two-sigma.vercel.app/",
-    github: "https://github.com/MxAziz/LMS-with-Redux-toolkit",
-  },
+
 ];
 
 const Projects = () => {
