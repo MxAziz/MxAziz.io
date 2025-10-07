@@ -19,9 +19,9 @@ const Hero = () => {
           <span className=" text-3xl md:text-4xl lg:text-5xl font-bold text-[#7E8083]">
             <Typewriter
               words={[
-                "Frontend Developer",
+                "Full Stack Developer",
                 "MERN Stack Developer",
-                "Full Stack Enthusiast",
+                "Frontend Developer",
               ]}
               loop={true}
               cursor
