@@ -4,10 +4,20 @@ import couponImg from "../../assets/images/couponcraze.png"
 import gamerImg from "../../assets/images/gamer.png"
 import bookImg from "../../assets/images/booknest.png"
 import walletxImg from "../../assets/images/walletx.png"
+import safarsathiImg from "../../assets/images/safarsathi.png"
 import "./WaveAnimation.css"
 
 
 const projects = [
+  {
+    title: "SafarSathi",
+    description:
+      "SafarSathi is a Travel Buddy and Meetup platform designed to connect like-minded travelers. Users can discover travel partners, create or join trips, and communicate securely to plan journeys together. The platform focuses on trust, simplicity, and meaningful connections, making solo travel safer and more social.",
+    image: safarsathiImg,
+    tags: ["Next.js", "PostgreSQL", "TypeScript", "Prisma"],
+    demo: "https://safar-sathi-frontend.vercel.app/",
+    github: "https://github.com/MxAziz/SafarSathi-Frontend",
+  },
   {
     title: "WalletX",
     description:
