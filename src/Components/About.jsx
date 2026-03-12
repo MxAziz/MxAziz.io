@@ -106,7 +106,7 @@ const About = () => {
                 className="text-base md:text-lg text-gray-200 leading-relaxed relative z-10"
               >
                 Hello, I'm <span className="font-bold text-[#c4c7cd]">Muhammad Aziz</span>, a
-                first-year student at Pabna University of Science and Technology
+                second-year student at Pabna University of Science and Technology
                 (PUST), pursuing a degree in{' '}
                 <span className="font-bold text-[#c4c7cd]">
                   Information and Communication Engineering (ICE)
@@ -131,7 +131,7 @@ const About = () => {
                 <div className="bg-[#424c61] p-4 rounded-xl hover:shadow-lg transition-shadow duration-300">
                   <h5 className="font-bold text-[#c4c7cd] mb-2">🎨 Specialization</h5>
                   <p className="text-gray-300 text-sm">
-                    React, Tailwind CSS, and modern web technologies
+                    React, Next.js, Tailwind CSS, and modern web technologies
                   </p>
                 </div>
                 <div className="bg-[#424c61] p-4 rounded-xl hover:shadow-lg transition-shadow duration-300">
@@ -146,7 +146,7 @@ const About = () => {
                 variants={itemVariants}
                 className="text-base md:text-lg text-gray-200 leading-relaxed mt-6 relative z-10"
               >
-                Let's build something amazing together! 🚀
+                Let's build something amazing together!
               </motion.p>
             </div>
           </motion.div>
