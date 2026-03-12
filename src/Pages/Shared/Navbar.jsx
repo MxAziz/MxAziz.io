@@ -113,7 +113,8 @@ const Navbar = () => {
           <ThemeToggle></ThemeToggle>
           <a
             download
-            href="/aziz-resume.pdf"
+            // href="/aziz-resume.pdf"
+            href="/full-stack-resume.pdf"
             className="border lg:hidden ml-2 lg:ml-0 text-sm flex items-center justify-center px-4 py-2 rounded-xl  cursor-pointer hover:bg-[#01161e] hover:scale-110 hover:shadow-lg transition-all duration-300 ease-in-out"
           >
             Resume
