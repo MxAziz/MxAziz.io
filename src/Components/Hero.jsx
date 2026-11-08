@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from "react-simple-typewriter";
-import azizImg from "../assets/images/aziz-ai.jpg"
+import azizImg from "../assets/images/az-black.png";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF, FaXTwitter } from "react-icons/fa6";
 import { Link } from 'react-scroll';
@@ -33,7 +33,7 @@ const Hero = () => {
           </span>
           <p className=" mt-6 text-base md:text-lg text-gray-300 select-none">
             Bringing ideas to life with clean code, intuitive design, and
-            seamless user experiences. Let's build something amazing together!
+            seamless user experiences.<br /> Let's build something amazing together!
           </p>
           {/* social links */}
           <div className="flex gap-2 mt-12">
@@ -82,7 +82,7 @@ const Hero = () => {
         {/* image */}
         <div className="">
           <img
-            className="h-[300px] md:h-[400px] rounded-lg mt-8 lg:mt-0"
+            className="h-[300px] md:h-[420px] rounded-lg mt-8 lg:mt-0"
             src={azizImg}
             alt="Aziz image"
           />
