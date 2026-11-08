@@ -103,7 +103,7 @@ const Services = () => {
   };
 
   return (
-    <div className="relative bg-[#424c61] text-white pb-20">
+    <div className="relative bg-[#424c61] dark:bg-[#384143] text-white pb-20">
       {/* Services Content */}
       <div className="container mx-auto text-center relative z-10 pt-28">
         {/* Title Section - Matching About Me Style */}
@@ -147,7 +147,7 @@ const Services = () => {
                 }}
                 onHoverStart={() => setHoveredCard(service.id)}
                 onHoverEnd={() => setHoveredCard(null)}
-                className="bg-[#2E3440] dark:bg-[#384143] p-8 rounded-2xl shadow-2xl relative overflow-hidden group cursor-pointer"
+                className="bg-[#2E3440] dark:bg-[#4e585b] p-8 rounded-2xl shadow-2xl relative overflow-hidden group cursor-pointer"
               >
                 {/* Animated Background Glow */}
                 <motion.div
@@ -169,7 +169,7 @@ const Services = () => {
                   transition={{ duration: 0.6 }}
                   className="relative z-10"
                 >
-                  <div className="w-20 h-20 mx-auto mb-6 bg-[#424c61] rounded-full flex items-center justify-center shadow-lg">
+                  <div className="w-20 h-20 mx-auto mb-6 bg-[#424c61] dark:bg-[#384143] rounded-full flex items-center justify-center shadow-lg">
                     <Icon className="text-4xl text-[#c4c7cd]" />
                   </div>
                 </motion.div>

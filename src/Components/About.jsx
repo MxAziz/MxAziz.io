@@ -128,13 +128,13 @@ const About = () => {
                 variants={itemVariants}
                 className="grid md:grid-cols-2 gap-4 mt-8 relative z-10"
               >
-                <div className="bg-[#424c61] p-4 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-[#424c61] dark:bg-[#4e585b] p-4 rounded-xl hover:shadow-lg transition-shadow duration-300">
                   <h5 className="font-bold text-[#c4c7cd] mb-2">🎨 Specialization</h5>
                   <p className="text-gray-300 text-sm">
                     React, Next.js, Tailwind CSS, and modern web technologies
                   </p>
                 </div>
-                <div className="bg-[#424c61] p-4 rounded-xl hover:shadow-lg transition-shadow duration-300">
+                <div className="bg-[#424c61] dark:bg-[#4e585b] p-4 rounded-xl hover:shadow-lg transition-shadow duration-300">
                   <h5 className="font-bold text-[#c4c7cd] mb-2">💡 Philosophy</h5>
                   <p className="text-gray-300 text-sm">
                     Clean code, continuous learning, and exceptional UX
@@ -171,7 +171,7 @@ const About = () => {
 
               <div className="relative z-10">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 bg-[#424c61] rounded-full flex items-center justify-center text-3xl">
+                  <div className="w-16 h-16 bg-[#424c61] dark:bg-[#4e585b] rounded-full flex items-center justify-center text-3xl">
                     🎓
                   </div>
                   <div>
@@ -218,7 +218,7 @@ const About = () => {
 
               <div className="relative z-10">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 bg-[#424c61] rounded-full flex items-center justify-center text-3xl">
+                  <div className="w-16 h-16 bg-[#424c61] dark:bg-[#4e585b] rounded-full flex items-center justify-center text-3xl">
                     💼
                   </div>
                   <div>
